@@ -1,0 +1,109 @@
+.card {
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(100, 100, 100);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+  max-width: 250px;
+}
+.card .card-img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.card-title {
+  font-size: 20px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.card p {
+  font-family: arial;
+}
+body {
+  background-image: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.clock-container {
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  padding: 10px 0;
+}
+.clock {
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgb(91, 91, 91);
+}
+
+.box{
+  border: 3px solid black;
+  padding: 20px;
+}
+
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
+}
+
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: rgb(69, 68, 68);
+  text-shadow: 2px 2px 2px rgb(149, 148, 148);
+  margin-bottom: 25px;
+}
+
+button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5 ease;
+}
+
+.start{
+  background-color: rgb(49, 241, 49);
+}
+.start:hover{
+  background-color: rgb(104, 253, 104);
+}
+.stop{
+  background-color: rgb(231, 62, 62);
+}
+.stop:hover{
+  background-color: rgb(249, 116, 116);
+}
+.reset{
+  background-color: rgb(128, 119, 254);
+}
+.reset:hover{
+  background-color: rgb(104, 89, 238);
+}
+
+body{
+  background: rgb(103, 99, 99);
+}
