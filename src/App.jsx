@@ -14,6 +14,7 @@ function App() {
     <Card/>
     <Button />
     <StopWatch/>
+    <DigitalClock/>
     </>
   );
 }
